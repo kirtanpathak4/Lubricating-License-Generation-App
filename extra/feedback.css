@@ -1,0 +1,48 @@
+button{
+	background-color: lightskyblue;
+	color: white;
+	border-radius: 25px;
+	font-size: 20px;
+	border-left: 2000px;
+	border-top: 2800px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+body{
+		background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+		margin: 0px auto;
+		margin-left: 20px;
+		margin-right: 25px;
+}
+table{
+	font-size: 20px;
+	font-family: georgia;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+input{
+	border: 2px solid skyblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	padding-left: 40px;
+}
+textarea{
+	border: 2px solid skyblue;
+}
+h1{
+	color: white;
+	font-family: georgia;
+	font-size: 48px;
+	font-weight: bold;
+	border: 10px solid black(22, 77, 100);
+	border-radius: 15px;
+	background-image: url("heading.png");
+	position: relative;
+	padding: 10px;
+}

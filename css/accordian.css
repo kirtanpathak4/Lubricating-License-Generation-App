@@ -1,0 +1,93 @@
+.accordion-container {
+	width: 100%;
+	margin: 0 0 5px;
+	clear: both;
+}
+
+.accordion-toggle {
+	position: relative;
+	display: block;
+	padding: 10px 25px 10px 10px;
+	font-size: 1.0em;
+	font-weight: 300;
+	background:url(../images/plus-16.png) 98% center no-repeat #BDC3C7;
+	color: #000;
+	text-decoration: none;
+
+}
+
+.investguide .accordion-toggle {
+	position: relative;
+	display: block;
+	padding: 10px 10px 10px 40px;
+	font-size: 1.0em;
+	font-weight: 300;
+	background:url(../images/arrow-right-241.png) 15px center no-repeat #fff;
+	color: #23a6fa;
+	text-decoration: none;
+	border: 1px solid #b8b8b8;
+}
+
+.accordion-toggle:hover {
+	background:url(../images/plus-16.png) 98% center no-repeat #666;
+	color: #fff;
+}
+.accordion-toggle.open {
+	background:url(../images/minus-16.png) 98% center no-repeat  #666;
+	color: #fff;
+}
+.accordion-toggle.open:hover{
+	background:url(../images/minus-16.png) 98% center no-repeat  #666;
+}
+
+
+.investguide .accordion-toggle:hover {
+	background:url(../images/arrow-right-24.png) 15px center no-repeat #f8b216;
+	color: #444444;
+}
+.investguide .accordion-toggle.open {
+	background:url(../images/arrow-down-24.png) 15px center no-repeat  #f8b216;
+	color: #444444;
+}
+.investguide .accordion-toggle.open:hover {
+	background:url(../images/arrow-down-24.png) 15px center no-repeat  #f8b216;
+}
+
+
+.investguide .accordion-toggle span.toggle-icon, .accordion-toggle span.toggle-icon {
+	position: relative;
+	top: 10px;
+	left: 10px; 
+	font-size: 1.5em;
+}
+.investguide .accordion-content, .accordion-content {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+}
+.investguide .accordion-content img, .accordion-content img {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.investguide .fa, .fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+
+/* media query for mobile */
+@media (max-width: 767px) {
+	.investguide .accordion-content, .accordion-content {
+		padding: 10px 0;
+		overflow: inherit;
+	}
+}
